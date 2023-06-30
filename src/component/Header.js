@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assest/logo.png";
+import logo from "../assest/sas.png";
 import { Link } from "react-router-dom";
 import { FaUserAlt } from "react-icons/fa";
 import { BsCartFill } from "react-icons/bs";
