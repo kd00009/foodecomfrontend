@@ -27,7 +27,7 @@ const Newproduct = () => {
     const { name, image, description, price, category } = data;
     if (name && image && description && price && category) {
       const fetchdata = await fetch(
-        `${process.env.REACT_APP_SERVER_URL}/uploadProduct`,
+        `https://karanfood-ecom.onrender.com/uploadProduct`,
         {
           method: "POST",
           headers: {

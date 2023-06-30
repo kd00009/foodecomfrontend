@@ -27,7 +27,7 @@ const Signup = () => {
     if (firstName && lastName && email && password && confirmpassword) {
       if (password === confirmpassword) {
         const fetchData = await fetch(
-          `${process.env.REACT_APP_SERVER_URL}/signup`,
+          `https://karanfood-ecom.onrender.com/signup`,
           {
             method: "POST",
             headers: {

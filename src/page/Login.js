@@ -23,7 +23,7 @@ const Login = () => {
     const { email, password } = Data;
     if (email && password) {
       const fetchData = await fetch(
-        `${process.env.REACT_APP_SERVER_URL}/login`,
+        `https://karanfood-ecom.onrender.com/login`,
         {
           method: "POST",
           headers: {

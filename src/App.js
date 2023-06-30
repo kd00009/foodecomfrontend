@@ -12,7 +12,7 @@ function App() {
     const fetchProducts = async () => {
       try {
         const response = await fetch(
-          `${process.env.REACT_APP_SERVER_URL}/product`
+          `https://karanfood-ecom.onrender.com/product`
         );
         const data = await response.json();
         // Handle the retrieved data here
